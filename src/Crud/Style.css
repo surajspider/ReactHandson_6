@@ -1,0 +1,78 @@
+.navflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nav {
+    border-radius: 20px;
+    width: 9%;
+    text-decoration: none;
+    /* color: white; */
+}
+
+.studenttopic {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.studetailtopic {
+    width: 25%;
+    margin-left: 1%;
+    /* border: 2px solid black; */
+}
+
+.addstubut {
+    margin-top: 10%;
+    padding: 15px;
+    width: 200px;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+.form-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    margin-top: 10%;
+}
+
+.form-child {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+label {
+    font-size: large;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.butedit {
+    width: 20%;
+    font-size: large;
+    padding: 10px;
+    margin-left: 3%;
+    margin-top: 1%;
+    border-radius: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: azure;
+}
