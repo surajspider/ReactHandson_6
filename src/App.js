@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 import RouteCompo from './Crud/RouteCompo/RouteCompo';
 function App() {
   return (

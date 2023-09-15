@@ -1,6 +1,10 @@
 import React, { useContext } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { StoreData } from './Store/Store';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
+
+
 function Student() {
     const navi = useNavigate();
     const [datas, datasf] = useContext(StoreData);
@@ -40,7 +44,7 @@ function Student() {
                                 <td>{item.course}</td>
                                 <td>{item.batch}</td>
                                 <td><NavLink to="/editstu" state={{ index }}>Edit</NavLink></td>
-                                <td><button onClick={() => handleDelete(index)}>Delete</button></td>
+                                <td><button className='deletebut' onClick={() => handleDelete(index)}><FontAwesomeIcon icon={faTrashCan} className="icon-hover" /></button></td>
                             </tr>
                         )
                     })}

@@ -76,3 +76,17 @@ button {
 button:hover {
     background-color: azure;
 }
+
+.deletebut {
+    border: 0;
+    background: none;
+    font-size: medium;
+}
+
+/* styles.css */
+.icon-hover:hover {
+    transform: scale(1.2);
+    /* You can customize the hover effect here */
+    transition: transform 0.2s ease;
+    /* Add a smooth transition effect */
+}
